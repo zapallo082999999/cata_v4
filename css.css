@@ -3,7 +3,7 @@
 body {
  text-align: center;
   
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes';
 
 color:#87bd8b;
  font-size: 25px;
@@ -78,7 +78,7 @@ box-shadow: 0 0 20px #2E8B57;
 
 /*¨///////////////////////////////BOTONESSSSS///////////////////////////////////////////////////*/
 button{
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Great Vibes';
     font-size: 67px;
     margin-left:auto ;
     margin-top:100px;
