@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="css.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tiempo_juntos</title>
+</head>
+<body>
+    
+
+    <div class="spoti ">
+<div id="contador">
+  <h2>💚 Tiempo juntos 💚</h2>
+  <p id="tiempo"></p>
+</div>
+
+
+
+
+    <script>
+        
+  // ⚠️ Cambiá esta fecha por la tuya
+  const fechaInicio = new Date("2026-02-5-21:23:00");
+
+  function actualizarContador() {
+    const ahora = new Date();
+    const diferencia = ahora - fechaInicio;
+
+    const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+    const horas = Math.floor((diferencia / (1000 * 60 * 60)) % 24);
+    const minutos = Math.floor((diferencia / (1000 * 60)) % 60);
+    const segundos = Math.floor((diferencia / 1000) % 60);
+
+    document.getElementById("tiempo").innerText =
+      `${dias} días, ${horas} horas, ${minutos} min, ${segundos} seg`;
+  }
+
+  setInterval(actualizarContador, 1000);
+</script>
+
+</div>
+<p class="volver">
+<form action="index.html">
+    <button type="submit ">  volver </button>
+    </form>
+  </p>
+</body>
+</html>

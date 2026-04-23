@@ -12,7 +12,7 @@ background-image: url("fondo3.jpg");
 }
 
 .crear {
-box-shadow: 0 0 20px #2E8B57;
+box-shadow: 0 0 10px #2E8B57;
 
   padding: 20px;
   border-radius: 25px;
@@ -94,6 +94,20 @@ button{
 }
 
 /*¨///////////////////////////////FOTOS Y VIDEOS///////////////////////////////////////////////////*/
+.spoti{
+
+box-shadow: 0 0 6.7px #2E8B57;
+
+  padding: 20px;
+  border-radius: 25px;
+  width: 500px;
+    height: auto;
+  margin: auto;
+  text-align: center;
+
+    background-color:  #14502d;
+
+}
 .videoo{
 margin-block-end: auto;
    height: 250px;
@@ -155,3 +169,18 @@ margin-block-end: auto;
     box-shadow: 0 0 20px rgb(0, 253, 0);
 }
 /*¨///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.timerrr{
+
+#contador {
+  text-align: center;
+  color: rgb(20, 136, 4);
+  font-size: 24px;
+}
+
+#tiempo {
+  font-size: 28px;
+  margin-top: 10px;
+}
+  
+}
