@@ -100,7 +100,7 @@ box-shadow: 0 0 6.7px #2E8B57;
 
   padding: 20px;
   border-radius: 25px;
-  width: 500px;
+  width: auto;
     height: auto;
   margin: auto;
   text-align: center;
@@ -169,18 +169,3 @@ margin-block-end: auto;
     box-shadow: 0 0 20px rgb(0, 253, 0);
 }
 /*¨///////////////////////////////////////////////////////////////////////////////////////////////*/
-
-.timerrr{
-
-#contador {
-  text-align: center;
-  color: rgb(20, 136, 4);
-  font-size: 24px;
-}
-
-#tiempo {
-  font-size: 28px;
-  margin-top: 10px;
-}
-  
-}
